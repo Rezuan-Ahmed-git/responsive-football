@@ -1,2 +1,142 @@
 /* Google Fonts  */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+/* Common styles  */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.button {
+  display: inline-block;
+  padding: 10px 24px;
+  background: #e02c6d;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 2px;
+  font-weight: 500;
+  transition: all 1s ease-out;
+}
+.fa-arrow-right {
+  margin: 0 8px;
+}
+.button:hover {
+  color: #e02c6d;
+  background-color: #fff;
+  transform: scale(1);
+  padding-right: 45px;
+  border-radius: 50px;
+}
+img {
+  transition: all 1s;
+}
+img:hover {
+  transform: scale(0.9);
+}
+/******************
+header style starts
+*******************/
+.banner-area {
+  background-color: #2d25a0;
+}
+.text-button-area {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 207px 51px 240px 156px;
+}
+.text-button-area .banner-title {
+  font-size: 64px;
+  line-height: 80px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 27px;
+}
+.banner-image img {
+  width: 70%;
+  padding: 153px 140px 86px 51px;
+}
+/******************header style ends*******************/
+
+/************************
+Players Area style starts
+************************/
+.area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.players-area {
+  margin-top: 70px;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 27px;
+  column-gap: 30px;
+}
+.player {
+  width: 300px;
+  padding: 15px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player-image img {
+  width: 300px;
+  height: 256px;
+}
+.player-title {
+  font-size: 28px;
+  color: #18191f;
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+.info {
+  font-size: 16px;
+  color: #6c6c6c;
+}
+/***********************Players Area style ends************/
+
+/***********
+Highlight Area style starts
+*******************/
+.highlight-text-btn {
+  width: 469px;
+  padding: 224px 0 217px 182px;
+  padding-right: 0;
+  margin-right: 66px;
+}
+.highlight-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #0a0826;
+  margin-bottom: 8px;
+}
+.highlight-btn {
+  margin-top: 14px;
+}
+.highlight-image {
+  display: flex;
+  align-items: center;
+}
+.highlight-image img {
+  width: 567px;
+  height: 427px;
+}
+/***********************Highlight Area style ends************/
+
+/***********
+Highlight Area style starts
+            *******************/
+/***********************Players Area style ends************/
